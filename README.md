@@ -1,5 +1,18 @@
 # dvdrip
 
+This is forked from [xenomachina/dvdrip](https://github.com/xenomachina/dvdrip). Most of this project is his work and, as such, credit should go to him.
+
+I have currently only made very minor changes and will continue to make minor changes.
+
+## Changes I have made and plan to make
+
+- [x] Use MKV rather than MP4 ([On MKV branch](https://github.com/Jab2870/dvdrip/tree/mkv))
+- [ ] Allow user to specify file extension
+- [ ] Allow user to specify the audio tracks to be ripped
+- [ ] Allow user to specify the subtitles to be ripped
+
+# Original README
+
 Rip DVDs quickly and easily from the commandline.
 
 
