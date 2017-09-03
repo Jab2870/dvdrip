@@ -5,7 +5,7 @@ Rip DVDs quickly and easily from the commandline.
 
 ## Features:
   - With minimal configuration:
-    - Encodes videos in mp4 files with h.264 video and aac audio.
+    - Encodes videos in mkv files with h.264 video and aac audio.
       (compatible with a wide variety of media players without
       additional transcoding, including PS3, Roku, and most smart
       phones, smart TVs and tablets).
@@ -21,7 +21,7 @@ Rip DVDs quickly and easily from the commandline.
   This script exists because I wanted a simple way to back up DVDs with
   reasonably good compression and quality settings, and in a format I could
   play on the various media players I own including PS3, Roku, smart TVs,
-  smartphones and tablets. Using mp4 files with h.264 video and aac audio seems
+  smartphones and tablets. Using mkv files with h.264 video and aac audio seems
   to be the best fit for these constraints.
 
   I also wanted it to preserve as much as possible: chapter markers, subtitles,
@@ -33,7 +33,7 @@ Rip DVDs quickly and easily from the commandline.
 
   This script also tries to be smart about the output name. You just tell it
   the pathname prefix, eg: "/tmp/AwesomeVideo", and it'll decide whether to
-  produce a single file, "/tmp/AwesomeVideo.mp4", or a directory
+  produce a single file, "/tmp/AwesomeVideo.mkv", or a directory
   "/tmp/AwesomeVideo/" which will contain separate files for each title,
   depending on whether you're ripping a single title or multiple titles.
 
@@ -104,7 +104,7 @@ Rip DVDs quickly and easily from the commandline.
 
   Otherwise, leave out the -c flag.
 
-  If there is only one video being ripped, it will be named Output_Name.mp4. If
+  If there is only one video being ripped, it will be named Output_Name.mkv. If
   there are multiple files, they will be placed in a new directory called
   Output_Name.
 
